@@ -18,7 +18,7 @@ To execute changes:
 source ~/.zshrc
 ```
 
-## Step 4: Install python:
+## Step 3: Install python:
 
 ```sh
 brew install python
@@ -30,15 +30,15 @@ Add following:
 echo "alias python=/opt/homebrew/bin/python3" >> ~/.zshrc
 ```
 
-## Step 3: Install Docker (docker-compose already included)
+## Step 4: Install Docker (docker-compose already included)
 
 ```sh
 brew install docker --cask
 ```
 
-## Step 4: Open Docker and accept rules etc
+## Step 5: Open Docker and accept rules etc
 
-## Step 4: Run Docker
+## Step 6: Run Docker
 
 ```sh
 docker run hello-world
